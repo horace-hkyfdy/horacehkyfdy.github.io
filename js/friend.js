@@ -1,8 +1,19 @@
 // author by removef
 // https://removeif.github.io/
-$(function () { //获取处理友链数据
-    $.getJSON("../json_data/friend.json", function (data) {
 
+$(function () { //获取处理友链数据
+
+    $.getJSON("../json_data/friend.json", function (data) {
+		
+				{
+		"date": "2022.01.09",
+		"stopTime": "2022.09.09",
+		"src": "https://cdn.jsdelivr.net/gh/removeif/removeif.github.io/images/tuzi.jpg",
+		"name": "@horace亣越",
+		"desc": "后端开发，技术分享。",
+		"url": "https://horacehkyfdy.github.io/",
+		"valid": 0
+		}
         // var data0 = data[0];
         $('.links-content').html("");
 
